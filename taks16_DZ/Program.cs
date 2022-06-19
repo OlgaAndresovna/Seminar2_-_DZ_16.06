@@ -2,11 +2,25 @@
 Console.WriteLine("Введите два числа: ");
 int number1 = Convert.ToInt32(Console.ReadLine( ));
 int number2 = Convert.ToInt32(Console.ReadLine( ));
-if (number1 == Math.Sqrt(number2)) 
+if (number1*number1 == number2) 
 {   
     Console.WriteLine("Да");
 }
+else if
+  (number2*number2==number1)
+{
+     Console.WriteLine("Да");
+}
+
 else
 {
      Console.WriteLine("Нет");
 }
+// if (number1 == Math.Sqrt(number2)) 
+// {   
+//     Console.WriteLine("Да");
+// }
+// else
+// {
+//     Console.WriteLine("Нет");
+//}
